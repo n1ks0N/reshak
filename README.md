@@ -1,5 +1,5 @@
 # reshak
-*version: 1.0*
+*version: alfa 1.0*
 
 ## Info
 
@@ -14,12 +14,20 @@ http://www.soloby.ru/resher?searchid=2281348&text=${query}&web=0
 otvet.mail.ru
 https://otvet.mail.ru/search/q-closed/${query}/
 
-reshator.com
-https://reshator.com/search/?text=${query}
+*reshator.com*
+*https://reshator.com/search/?text=${query}*
 
 
 ### Problems
 1. Обработка картинки? (на стороне клиента или сервера)
+
+
+### Monetization
+1. Реклама на сайте (контекстная, баннеры)
+2. Продажа рекламного пространства
+3. Показ видеороликов
+4. Капча
+5. Флэш-игры
 
 
 ## Stack
@@ -29,7 +37,7 @@ https://reshator.com/search/?text=${query}
 *OCR*
 
 #### Image Format
-Support Format: bmp, jpg, png, pbm
+Support Format: bmp, jpeg, png, pbm
 
 #### Languages:
 Russia: rus
@@ -43,5 +51,9 @@ English: eng
 #### Realtime Database
 
 
-## Apify[https://apify.com/]
+### Apify[https://apify.com/]
 *Parser*
+
+
+### Bootstrap[]
+*UI*
