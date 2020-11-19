@@ -1,20 +1,21 @@
 # reshak
 *version: alfa 1.0*
 
+
 ## Info
 
 
 ### Sites
-znanija.com
+znanija.com:
 https://znanija.com/app/ask?&q=${query}
 
-soloby.ru
+soloby.ru:
 http://www.soloby.ru/resher?searchid=2281348&text=${query}&web=0
 
-otvet.mail.ru
+otvet.mail.ru:
 https://otvet.mail.ru/search/q-closed/${query}/
 
-*reshator.com*
+*reshator.com*:
 *https://reshator.com/search/?text=${query}*
 
 
@@ -28,32 +29,37 @@ https://otvet.mail.ru/search/q-closed/${query}/
 3. Показ видеороликов
 4. Капча
 5. Флэш-игры
+6. Показ рекламы, вместе с развлекательным контентом (во время загрузки)
 
 
 ## Stack
 
 
-### Tesseract.js[https://github.com/naptha/tesseract.js#tesseractjs]
-*OCR*
+### Tesseract.js
+*OCR*<br/>
+*https://github.com/naptha/tesseract.js#tesseractjs*
 
 #### Image Format
 Support Format: bmp, jpeg, png, pbm
 
-#### Languages:
-Russia: rus
+#### Languages
+Russia: rus<br/>
 English: eng
 
 
-### Firebase[https://console.firebase.google.com/u/0/project/reshak-a64bc/overview]
-*Back-end*
+### Firebase
+*Back-end*<br/>
+*https://console.firebase.google.com/u/0/project/reshak-a64bc/overview*
 
 #### Storage
-#### Realtime Database
+#### *Hosting*
 
 
-### Apify[https://apify.com/]
-*Parser*
+### Apify
+*Parser*<br/>
+*https://apify.com/*
 
 
-### Bootstrap[]
-*UI*
+### Bootstrap
+*UI*<br/>
+**

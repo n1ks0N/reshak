@@ -14,3 +14,7 @@
 .textarea-group__btn {
   margin-left: 25px;
 }
+.img {
+  max-width: 600px;
+  max-height: 600px;
+}
