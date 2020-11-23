@@ -246,7 +246,7 @@ const App = () => {
 
   const get = (i) => {
     dispatch({ type: 'clear' })
-    document.querySelectorAll('.textarea-group__btn').setAttribute('disabled', 'disabled')
+    // document.querySelectorAll('.textarea-group__btn').setAttribute('disabled', 'disabled')
     setImg(prev => {
       return {
         ...prev,
